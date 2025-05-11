@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="location.href='/login'">Log In</button>
+                <button type="button" class="toggle-btn" onclick="location.href='/signup'">Sign Up</button>
+            </div>
+
+            <div class="social-icons">
+                <i class="bx bxl-facebook-circle"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-twitter"></i>
+            </div>
+
+            
+            <form id="login" class="input-group" th:action="@{/login}" method="post">
+                
+                <!-- Display error message if any -->
+                <div th:if="${error}" class="error-message" th:text="${error}"></div>
+
+                <!-- Username -->
+                <input type="text" id="username" class="input-field" name="username" placeholder="Username">
+                
+                
+                
+                <!-- Password -->
+                <input type="password" id="password" class="input-field" name="password" placeholder="Password">
+                
+                
+
+                
+                <input type="checkbox" class="check-box">
+                <span>Remember password</span>
+
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>

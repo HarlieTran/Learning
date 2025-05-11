@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Product Details</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/item-details.css}">
+</head>
+
+<body>
+    <main>
+        <h2>Product Details</h2>
+        <div id="item-details-grid">
+            <div th:class="pic">
+                <img th:src="@{${item.picture}}" alt="Image of ${item.name}">
+            </div>
+            <div th:class="desc">
+                <p th:class="name"> <span th:text="${item.name}"></span></p>
+                <p><strong>Description:</strong> <span th:text="${item.description}"></span></p>
+                <p><strong>Ingredients:</strong> <span th:text="${item.ingredients}"></span></p>
+                <p><strong>Tasting Notes:</strong> <span th:text="${item.tastingNotes}"></span></p>
+                <a href="/items">Back to products</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

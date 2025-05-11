@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/items.css}">
+</head>
+
+<body>
+    <main>
+        <h2>Perfume Products</h2>
+
+        <div id="items-grid">
+            <div th:each="item, stat : ${items}" th:class="'item-box item' + ${stat.index + 1}">
+                <img th:src="@{${item.picture}}" alt="Image of ${item.name}">
+                <a th:href="@{/item(name=${item.name})}" th:text="${item.name}"></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="hero">
+        <div class="form-box">
+            <main class="welcome-container">
+                <h1>Welcome <br> to <br> Perfume World!</h1>
+
+                <p>"Purple the sails, and so perfumed, that the winds were love-sick with them.” <br> Shakespeare wrote</p>
+                
+                <div class="social-icons">
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-twitter"></i>
+                </div>
+
+                <div class="button-box">
+                    <button type="button" class="toggle-btn" onclick="location.href='/login'">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="location.href='/signup'">Sign Up</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
