@@ -1,0 +1,61 @@
+<!-- NGUYEN HAI ANH TRAN - 9013769 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Welcome Section -->
+    <header id="header">
+        <nav>
+            <a href="#header">About</a>
+            <a href="#dashboard">Dashboard</a>
+        </nav>
+        <section class="cover-container">
+            <img src="images/images.jpeg" class="cover-bg" alt="Cover Background">
+            <div class="light-layer">
+                <p style="font-size: 23px;">WELCOME TO</p>
+                <p style="font-size: 35px; font-weight: bold;">OUR WEATHER'S DASHBOARD</p>
+                <p style="font-size: 18px; font-style: italic;">Let's explore the interesting figures from weather records!</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <p id="header-title" class="title">Weather Dashboard</p>
+
+        <main class="two-parts">
+            <!--Menu-->            
+            <aside class="side-bar">            
+                <div class="menu">
+                    <button id="pieChartSection">PIE CHART</button>
+                    <button id="tableSection">TABLE DETAILS</button>
+                </div>
+            </aside>
+
+            <!--Content-->
+            <section class="content">
+                <h2 id="chart-title" class="chart-title">Weather Dashboard</h2>
+                <div id="charts-area" class="chart-container"> 
+                </div>
+            </section>
+        </main>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="gradient-text">&copy; 2024 | Nguyen Hai Anh Tran | 
+            <a href="mailto:ntran3769@conestogac.on.ca">ntran3769@conestogac.on.ca</a>
+        </p>
+    </footer>
+   
+</body>
+</html>
+

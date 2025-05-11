@@ -1,0 +1,9 @@
+{
+    "gadgetID": "2",
+    "Name": "Laptop",
+    "Description": "Gaming laptop with powerful graphics",
+    "Category": "Computers",
+    "Price": 1200,
+    "Availability": true
+  }
+  

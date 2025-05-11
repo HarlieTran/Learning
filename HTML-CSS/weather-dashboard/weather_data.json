@@ -1,0 +1,77 @@
+{
+    "weather": [
+      {
+        "day": "July 10",
+        "temperature" : 21,
+        "humidity" : 44,
+        "feels_like" : 24,
+        "winds_mph" : 10 
+      },
+      {
+        "day": "July 11",
+        "temperature" : 23,
+        "humidity" : 20,
+        "feels_like" : 24,
+        "winds_mph" : 5 
+      },
+      {
+        "day": "July 12",
+        "temperature" : 24,
+        "humidity" : 30,
+        "feels_like" : 19,
+        "winds_mph" : 60 
+      },
+      {
+        "day": "July 13",
+        "temperature" : 30,
+        "humidity" : 70,
+        "feels_like" : 38,
+        "winds_mph" : 2 
+      },{
+        "day": "July 14",
+        "temperature" : 22,
+        "humidity" : 44,
+        "feels_like" : 16,
+        "winds_mph" : 35 
+      },
+      {
+        "day": "July 15",
+        "temperature" : 26,
+        "humidity" : 44,
+        "feels_like" : 24,
+        "winds_mph" : 10 
+      },
+      {
+        "day": "July 16",
+        "temperature" : 30,
+        "humidity" : 12,
+        "feels_like" : 32,
+        "winds_mph" : 10 
+      },{
+        "day": "July 17",
+        "temperature" : 13,
+        "humidity" : 5,
+        "feels_like" : 10,
+        "winds_mph" : 5 
+      },{
+        "day": "July 18",
+        "temperature" : 18,
+        "humidity" : 8,
+        "feels_like" : 17,
+        "winds_mph" : 15 
+      },{
+        "day": "July 19",
+        "temperature" : 25,
+        "humidity" : 45,
+        "feels_like" : 23,
+        "winds_mph" : 5 
+      },{
+        "day": "July 20",
+        "temperature" : 20,
+        "humidity" : 60,
+        "feels_like" : 19,
+        "winds_mph" : 5 
+      }
+    ]
+  
+}

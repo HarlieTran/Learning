@@ -1,0 +1,9 @@
+{
+    "gadgetID": "3",
+    "Name": "Smartwatch",
+    "Description": "Fitness tracker and smartwatch",
+    "Category": "Wearable",
+    "Price": 199,
+    "Availability": true
+  }
+  
